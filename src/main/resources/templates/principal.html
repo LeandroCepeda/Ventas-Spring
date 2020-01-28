@@ -1,0 +1,12 @@
+<!doctype html> 
+<html lang="es" xmlns:th="http://www.w3.org/1999/xhtml">
+
+<!-- PLANTILLA QUE SE VA A COMPARTIR ENTRE TODAS LAS PAGINAS DE LA APP -->
+
+<head th:replace="fragments/head :: encabezado"></head>
+<body>
+<nav th:replace="fragments/navbar :: barra"></nav>
+<main layout:fragment="contenido" role="main" class="container"></main><!--Si otra pagina quiere tener este main, tiene que colocar en su etiqueta main -> layout:fragment="contenido y va a ser reemplazado por este main-->
+<footer th:replace="fragments/footer :: pie"></footer>
+</body>
+</html>
