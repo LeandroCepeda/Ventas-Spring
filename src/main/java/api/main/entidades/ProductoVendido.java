@@ -26,7 +26,6 @@ public class ProductoVendido {
 	
 	private String codigo;
 	
-	
     private double cantidad;
     
     private double precio;
