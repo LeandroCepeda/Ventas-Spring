@@ -29,4 +29,4 @@ build/
 ### VS Code ###
 .vscode/
 
-/src/main/java/api/main/utiles/
+**/src/main/java/api/main/utiles/
