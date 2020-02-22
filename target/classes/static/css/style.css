@@ -1,0 +1,14 @@
+body {
+    /*Para la barra superior fija*/
+    padding-top: 70px;
+    
+    /*Para la barra inferior fija*/
+    padding-bottom: 70px;
+    
+    font-family: 'Roboto',sans-serif;
+}
+
+h2 {
+	margin : 20px 20px 20px 0;
+	font-weight: bold;
+}
